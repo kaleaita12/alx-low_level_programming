@@ -2,17 +2,16 @@
 
 /**
  * main - prints the alphabetic
- * Return: Always (success)
+ * Return: Always 0 (success)
  */
-
 int main(void)
-
 {
         char c;
 
-
         for (c = 'a'; c <= 'z'; c++)
         putchar(c);
-        putchar('\n');
-        return (0);
+
+	putchar('\n');
+
+	return (0);
 }
