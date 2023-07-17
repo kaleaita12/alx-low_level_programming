@@ -1,8 +1,3 @@
-/*
- * fille: 2-print_alphabet.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 
 /**
