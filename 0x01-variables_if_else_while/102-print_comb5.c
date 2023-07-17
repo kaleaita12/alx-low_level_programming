@@ -3,8 +3,10 @@
 #include <time.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - prints all possible cobinations of two two-digit numbers,
+ *        ranging from 0-99, separated by a comma followed by a space.
+ *
+ * Return: Always 0.
  */
 
 int main(void)
@@ -24,6 +26,7 @@ int main(void)
 
        			 if (p == 98 && p == 99)
        				 continue;
+
        			 putchar(',');
        			 putchar(' ');
        		 }
