@@ -1,7 +1,13 @@
+/*
+ * fille: 2-print_alphabet.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
- * main - prints the alphabetic
+ * main - prints the alphabetic in lowercast.
+ *
  * Return: Always 0 (success)
  */
 int main(void)
@@ -9,7 +15,7 @@ int main(void)
         char c;
 
         for (c = 'a'; c <= 'z'; c++)
-        putchar(c);
+       		 putchar(c);
 
 	putchar('\n');
 
