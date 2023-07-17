@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- *  Entry point
+ * main - prints all single digit numbers of base 10 starting from 0.
+ *        with out char 
  *
  * Return: Always 0 (Success)
  */
