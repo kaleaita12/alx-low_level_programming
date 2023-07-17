@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 /**
- * min - prints all possible combinations of single-digit numbers.
+ * main - prints all possible combinations of single-digit numbers.
  * Return: Always 0.
  *
  */
