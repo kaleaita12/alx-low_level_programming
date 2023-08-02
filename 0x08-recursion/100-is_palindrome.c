@@ -25,13 +25,13 @@ int palind2(char *a)
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int palind3(char *a, int l, int n)
+int palind3(char *s, int n1, int n2)
 {
-	if (*(a + l) == *(a + n))
+	if (*(s + n1) == *(s + n2))
 	{
-		if (l == n || l == n + 1)
-		return (1);
-	return (0 + palind3(a, l + 1, n - 1));
+		if (n1 == n2 || n1 == n2 + 1)
+			return (1);
+		return (0 + palind3(s, n1 + 1, n2 - 1));
 	}
 	return (0);
 }
