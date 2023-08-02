@@ -4,7 +4,6 @@
 /**
  * palind2 - obtains length of a
  * @a: string
- * @l: integer to count length
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
@@ -20,18 +19,18 @@ int palind2(char *a)
  * palind3 - compares string vs string reverse
  * @a: string
  * @l: length
- *
+ * @n: biggest lteratur.
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int palind3(char *s, int n1, int n2)
+int palind3(char *a, int l, int n)
 {
-	if (*(s + n1) == *(s + n2))
+	if (*(a + l) == *(a + n))
 	{
-		if (n1 == n2 || n1 == n2 + 1)
+		if (l == n || l == n + 1)
 			return (1);
-		return (0 + palind3(s, n1 + 1, n2 - 1));
+		return (0 + palind3(a, l + 1, n - 1));
 	}
 	return (0);
 }
